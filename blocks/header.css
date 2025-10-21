@@ -1,7 +1,10 @@
 .body {
   width: 1280;
   height: 2008;
+  color: #ffffff;
+  font-family: Inter;
   background-color: #2a2c2f;
+  margin: 0 148px 0;
 }
 
 .header {
@@ -17,8 +20,6 @@
 }
 
 .header__content {
-  width: 984px;
-  height: 983px;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -27,31 +28,26 @@
 .header__title {
   width: 720px;
   height: 200px;
-  font-family: Inter;
   font-weight: 900;
   font-size: 96px;
   line-height: 100px;
   letter-spacing: 0%;
   text-align: center;
-  color: #ffffff;
+
   margin: 0 auto 32px;
 }
 
 .header__subtitle {
   width: 720px;
   height: 72px;
-  font-family: Inter;
   font-weight: 400;
   font-size: 30px;
   line-height: 36px;
   letter-spacing: 0%;
   text-align: center;
-  color: #ffffff;
   margin: 0 auto 64px;
 }
 
 .header__image {
-  width: 984px;
-  height: 615px;
   margin: auto;
 }
