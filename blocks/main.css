@@ -1,7 +1,7 @@
 /* Estilos para tamaño Escritorio (768px-1280px) */
 
 @media screen and (max-width: 1280px) {
-  .main {
+  .content {
     width: 100%;
     max-width: 830px;
     margin: 0 auto 92px;
@@ -10,17 +10,17 @@
     justify-content: center;
   }
 
-  .main__title {
+  .content__title {
     width: 825px;
     height: 174px;
-    font-family: Inter;
+    font-family: "Inter", Arial, sans-serif;
     font-weight: 900;
     font-size: 54px;
     line-height: 58px;
     letter-spacing: 0%;
   }
 
-  .main__text-quote {
+  .content__text-quote {
     width: 738px;
     height: 136px;
     font-weight: 400;
@@ -29,7 +29,7 @@
     letter-spacing: 0%;
   }
 
-  .main__text-author {
+  .content__text-author {
     width: 732px;
     height: 34px;
     font-weight: 400;
@@ -41,9 +41,9 @@
     justify-content: flex-end;
   }
 
-  .main__text {
+  .content__text {
     width: 722px;
-    height: 182;
+    height: 182px;
     font-weight: 400;
     font-size: 16px;
     line-height: 163%;
