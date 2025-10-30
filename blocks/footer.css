@@ -4,8 +4,19 @@
 }
 
 .footer__copyright {
+  width: 194px;
+  height: 16px;
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
   text-align: center;
+  margin: 92px auto 0px;
+}
+
+/* Estilos para tamaño Tabel (320px-768px) */
+
+@media screen and (max-width: 768px) {
+  .footer__copyright {
+    margin: 92px auto 0px;
+  }
 }
