@@ -1,3 +1,5 @@
+/* Estilos para tamaño Escritorio (1280px-768px) */
+
 .footer {
   margin: 0 auto 0;
 }
@@ -12,7 +14,7 @@
   margin: 92px auto 0px;
 }
 
-/* Estilos para tamaño Tabel (320px-768px) */
+/* Estilos para tamaño Tabel (768px-320px) */
 
 @media screen and (max-width: 768px) {
   .footer__copyright {

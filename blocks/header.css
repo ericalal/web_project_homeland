@@ -1,4 +1,4 @@
-/* Estilos para tamaño Escritorio (768px-1280px) */
+/* Estilos para tamaño Escritorio (1280px-768px) */
 
 .header {
   display: flex;
@@ -44,7 +44,7 @@
   margin: auto;
 }
 
-/* Estilos para tamaño Tabel (320px-768px) */
+/* Estilos para tamaño Tabel (768px-320px) */
 
 @media screen and (max-width: 768px) {
   .header {
@@ -76,7 +76,7 @@
   }
 }
 
-/* Estilos para tamaño Mobil (320px-768px) */
+/* Estilos para tamaño Mobil (320px-0px) */
 
 @media screen and (max-width: 320px) {
   .header__logo {
