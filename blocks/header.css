@@ -52,7 +52,6 @@
   }
 
   .header__logo {
-    width: 245px;
     height: 66px;
     margin: 0 auto 90px;
   }
@@ -60,23 +59,12 @@
   .header__title {
     width: 530px;
     height: 158px;
-    font-family: Inter;
-    font-weight: 900;
     font-size: 75px;
     line-height: 79px;
-    letter-spacing: 0%;
-    text-align: center;
     margin: 0px auto 25px;
   }
 
   .header__subtitle {
-    font-family: Inter;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 36px;
-    letter-spacing: 0%;
-    text-align: center;
-
     margin: 0px auto 30px;
   }
 
@@ -91,4 +79,25 @@
 /* Estilos para tamaño Mobil (320px-768px) */
 
 @media screen and (max-width: 320px) {
+  .header__logo {
+    width: 199px;
+    height: 52px;
+    margin: 0 auto 50px;
+  }
+
+  .header__title {
+    width: 228px;
+    height: 88px;
+    font-size: 40px;
+    line-height: 44px;
+    margin: 0px auto 25px;
+  }
+
+  .header__subtitle {
+    width: 299px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0px auto 40px;
+  }
 }
