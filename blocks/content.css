@@ -3,7 +3,7 @@
 .content {
   width: 100%;
   max-width: 830px;
-  margin: 0 auto 92px;
+  margin: 0px auto 92px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -52,7 +52,7 @@
 
 @media screen and (max-width: 768px) {
   .content__title {
-    width: 707px;
+    width: 685px;
     height: 174px;
     font-size: 45px;
     line-height: 49px;
@@ -60,17 +60,18 @@
   }
 
   .content__text-quote {
-    width: 720px;
+    width: 685px;
     height: 136px;
     margin: 0px auto 0px;
   }
 
   .content__text-author {
+    width: 685px;
     margin: 0px auto 0px;
   }
 
   .content__text {
-    width: 720px;
+    width: 685px;
     margin: 32px auto 0px;
   }
 }
