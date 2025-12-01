@@ -1,6 +1,10 @@
 .gales__container {
-  width: 987px;
-  margin: 0px auto 80px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  column-gap: 40px;
+  row-gap: 48px;
 }
 
 .gales {
@@ -92,4 +96,35 @@
 
 .gales__button:hover {
   filter: brightness(0.5);
+}
+
+/* Estilos para tamaño Tabel (768px-320px) */
+
+@media screen and (max-width: 768px) {
+  .gales__header {
+    width: 680px;
+  }
+
+  .gales__title {
+    width: 340px;
+    font-size: 42px;
+  }
+
+  .gales__subtitle {
+    width: 67px;
+  }
+
+  .gales__artist-name {
+    width: 352px;
+  }
+
+  .gales__photo {
+    width: 340px;
+    height: 340px;
+  }
+
+  .gales__text {
+    width: 352px;
+    font-size: 16px;
+  }
 }
