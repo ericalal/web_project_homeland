@@ -1,18 +1,25 @@
 .eeuu__container {
-  width: 987px;
-  margin: 0px auto 80px;
+  width: 984px;
+  margin-bottom: 80px;
+  display: grid;
+  grid-template-columns: 460px 484px;
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+    "header header"
+    "photo text"
+    "button button";
+  column-gap: 40px;
+  row-gap: 48px;
 }
 
-.eeuu {
-  height: 756px;
-  margin: 0px auto 80px;
-  display: flex;
-  flex-direction: column;
+.eeuu__container > a {
+  grid-area: button;
 }
 
 .eeuu__header {
+  grid-area: header;
   display: flex;
-  margin-bottom: 48px;
+  margin-bottom: 0px;
 }
 
 .eeuu__title {
@@ -50,12 +57,10 @@
   margin: 0px 0px 0px;
 }
 
-.eeuu__main {
-  display: flex;
-}
-
 .eeuu__photo {
-  width: 460px;
+  grid-area: photo;
+  width: 100%;
+  max-width: 460px;
   height: 460px;
   box-shadow: 10px 10px 40px black;
 }
@@ -65,12 +70,23 @@
 }
 
 .eeuu__paragraph {
+  grid-area: text;
   flex-direction: column;
 }
 
 .eeuu__text {
-  width: 484px;
-  margin: 0px 0px 25px 40px;
+  width: 100%;
+  margin-bottom: 0px;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+}
+
+.eeuu__text-1 {
+  margin-bottom: 25px;
+  width: 100%;
+  margin-bottom: 0px;
   font-family: Inter;
   font-weight: 400;
   font-size: 18px;
@@ -80,7 +96,7 @@
 .eeuu__button {
   width: 289px;
   height: 48px;
-  margin: 23px 0px 0px;
+  margin: 0px;
   font-family: Inter;
   font-weight: 400;
   font-size: 18px;
