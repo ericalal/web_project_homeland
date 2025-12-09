@@ -19,7 +19,6 @@
 .montevideo__header {
   grid-area: header;
   display: flex;
-  margin-bottom: 48px;
 }
 
 .montevideo__title {

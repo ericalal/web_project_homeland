@@ -86,6 +86,7 @@
 .gales__text-1 {
   margin-bottom: 25px;
   width: 100%;
+  margin-top: 0px;
   margin-bottom: 0px;
   font-family: Inter;
   font-weight: 400;
@@ -113,13 +114,23 @@
 /* Estilos para tamaño Tabel (768px-320px) */
 
 @media screen and (max-width: 768px) {
-  .gales__header {
-    width: 680px;
+  .gales__container {
+    width: 720px;
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-columns: 340px 352px;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+      "header header"
+      "photo text"
+      "button button";
+    column-gap: 28px;
+    row-gap: 48px;
   }
 
   .gales__title {
-    width: 340px;
     font-size: 42px;
+    margin-top: auto;
   }
 
   .gales__subtitle {
