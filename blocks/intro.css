@@ -1,6 +1,6 @@
-/* Estilos para tamaño Escritorio (1280px-768px) */
+/* En desktop, los anchos fijos están bien, pero en mobile usa porcentajes */
 
-.content {
+.intro {
   width: 100%;
   max-width: 830px;
   margin: 0px auto 92px;
@@ -9,7 +9,7 @@
   justify-content: center;
 }
 
-.content__title {
+.intro__title {
   width: 825px;
   height: 174px;
   font-weight: 900;
@@ -18,7 +18,7 @@
   letter-spacing: 0%;
 }
 
-.content__text-quote {
+.intro__text-quote {
   width: 738px;
   height: 136px;
   font-weight: 400;
@@ -27,7 +27,7 @@
   letter-spacing: 0%;
 }
 
-.content__text-author {
+.intro__text-author {
   width: 732px;
   height: 34px;
   font-weight: 400;
@@ -39,7 +39,7 @@
   justify-content: flex-end;
 }
 
-.content__text {
+.intro__text {
   width: 722px;
   height: 182px;
   font-weight: 400;
@@ -48,10 +48,8 @@
   letter-spacing: 0%;
 }
 
-/* Estilos para tamaño Tabel (768px-320px) */
-
-@media screen and (max-width: 768px) {
-  .content__title {
+@media screen and (max-width: 768px) and (min-width: 321px) {
+  .intro__title {
     width: 685px;
     height: 174px;
     font-size: 45px;
@@ -59,48 +57,49 @@
     margin: 0px auto 50px;
   }
 
-  .content__text-quote {
+  .intro__text-quote {
     width: 685px;
     height: 136px;
     margin: 0px auto 0px;
   }
 
-  .content__text-author {
+  .intro__text-author {
     width: 685px;
     margin: 0px auto 0px;
   }
 
-  .content__text {
+  .intro__text {
     width: 685px;
     margin: 32px auto 0px;
   }
 }
 
-/* Estilos para tamaño Mobil (320px-0px) */
-
 @media screen and (max-width: 320px) {
-  .content__title {
-    width: 288px;
+  .intro__title {
+    width: auto;
+    height: auto;
     font-size: 32px;
     line-height: 35px;
     margin: 0px auto 40px;
   }
 
-  .content__text-quote {
-    width: 288px;
+  .intro__text-quote {
+    width: auto;
     height: auto;
+    font-size: 24px;
     margin: 0px auto 0px;
   }
 
-  .content__text-author {
-    width: 288px;
+  .intro__text-author {
+    width: auto;
     font-size: 24px;
     margin: 10px auto 0px;
   }
 
-  .content__text {
+  .intro__text {
     width: 288px;
     height: 442px;
+    font-size: 16px;
     margin: 32px auto 0px;
   }
 }

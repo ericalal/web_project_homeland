@@ -1,4 +1,4 @@
-/* Estilos para tamaño Escritorio (1280px-768px) */
+/* Pequeño detalle: siempre centra el footer con margin auto */
 
 .footer {
   margin: 0 auto 0;
@@ -14,10 +14,14 @@
   margin: 92px auto 0px;
 }
 
-/* Estilos para tamaño Tabel (768px-320px) */
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and (min-width: 321px) {
   .footer__copyright {
     margin: 92px auto 0px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer__copyright {
+    margin: 64px auto 0px;
   }
 }
